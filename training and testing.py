@@ -58,7 +58,3 @@ def main():
 
     joblib.dump({"model": model, "features": list(features.columns)}, MODEL_FILE)
     print(f"Model saved to: {MODEL_FILE}")
-
-
-if __name__ == "__main__":
-    main()
