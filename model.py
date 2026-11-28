@@ -49,10 +49,6 @@ print(pre)
 joblib.dump(model,"crop_model.pkl")
 print("Model saved succesfully")
 
-from google.colab import files
-files.download("crop_model.pkl")
-print(model.feature_names_in_)
-
 # TOP 3 CROP RECOMMENDATIONS
 
 def get_top_crops(data):
