@@ -12,6 +12,6 @@ print(df)
 print(df.info())
 print(df.shape)
 print(df.isnull().sum())
-print(df.duplicated().sum())
+
 print(df.columns)
 print(df.describe())
