@@ -1,7 +1,3 @@
-# Crop Recommendation & Soil Analyzer - Streamlit App
-# Keep this file in the same folder as:
-#   1. crop_model.pkl
-#   2. Crop_recommendation.csv
 
 from pathlib import Path
 
